@@ -4,7 +4,7 @@ import cors from 'cors';
 import { AzureOpenAI } from 'openai';
 
 const app = express();
-const port = 3000;
+const port = 3006;
 
 // Middleware
 app.use(bodyParser.json());
