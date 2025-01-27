@@ -9,5 +9,5 @@ COPY . .
 FROM node:18-alpine
 WORKDIR /app
 COPY --from=build /app .
-EXPOSE 3003
+EXPOSE 3006
 CMD ["node", "index.js"]
